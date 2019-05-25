@@ -41,7 +41,7 @@ RUN \
 #  https://github.com/docker-library/docker/blob/master/18.06/modprobe.sh
 #
 
-## Install nodejs
+## Install nodejs & npm
 #
 RUN apk add --no-cache --update \
         nodejs g++ make
