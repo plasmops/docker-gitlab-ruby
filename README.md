@@ -1,4 +1,4 @@
-# docker-gitlab-ruby [![Image Version](https://images.microbadger.com/badges/version/plasmops/gitlab-ruby.svg)](https://microbadger.com/images/plasmops/gitlab-ruby)
+# docker-gitlab-ruby [![Build Status](https://travis-ci.org/plasmops/docker-gitlab-ruby.svg?branch=master)](https://travis-ci.org/plasmops/docker-gitlab-ruby) [![Image Version](https://images.microbadger.com/badges/version/plasmops/gitlab-ruby.svg)](https://microbadger.com/images/plasmops/gitlab-ruby)
 
 Ruby GitLab CI runtime container image.
 
