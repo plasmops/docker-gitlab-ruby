@@ -19,6 +19,14 @@ RUN apk add --no-cache --update \
         curl bash git tar jq \
         git binutils coreutils findutils file build-base
 
+## Install python 2.7
+#
+RUN apk add --no-cache --update python python-dev && \
+    python -m ensurepip && \
+    rm -r /usr/lib/python*/ensurepip && \
+    pip install --upgrade pip setuptools && \
+    ( rm -rf /root/.cache /root/.* 2>/dev/null || /bin/true )
+
 ## AWS tools
 RUN \
     pip install awscli && apk add --no-cache groff less mailcap && \
